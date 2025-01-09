@@ -1,0 +1,50 @@
+# Ignore configuration files with sensitive information
+config/settings.py
+
+# Ignore data files
+data/input/*
+data/output/*
+
+# Ignore log files
+logs/*
+
+# Ignore virtual environment folder
+venv/
+.env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Ignore test coverage reports
+htmlcov/
+.coverage
+*.cover
+*.coverage.*
+
+# Ignore temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore large or temporary libraries
+*.egg
+*.egg-info/
+dist/
+build/
