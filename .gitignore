@@ -1,9 +1,5 @@
-# Ignore configuration files with sensitive information
-config/settings.py
 
-# Ignore data files
-data/input/*
-data/output/*
+
 
 # Ignore log files
 logs/*
